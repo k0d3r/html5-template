@@ -1,0 +1,85 @@
+/*---------------------------------------- Reset */
+ul, li, ol, dl, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, img {  
+	margin: 0; 
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none; 
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none inside decimal;
+}
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;	
+}
+object {
+	display: block;
+	outline: none;
+}
+table {
+	font-size: 1em;
+}
+table td {
+	padding: 0;
+}
+a {
+	outline: none;
+}
+
+/* Flexible images */
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* Reset stylesheets
+ | http://stackoverflow.com/questions/3485720/which-html5-reset-css-do-you-use-and-why
+ | http://www.cssreset.com/
+ | http://html5reset.org/
+ | http://meyerweb.com/eric/tools/css/reset/ & http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/
+ | https://github.com/necolas/normalize.css/blob/master/normalize.css
+ | http://html5doctor.com/html-5-reset-stylesheet/
+ */
+
+/*---------------------------------------- Image alignment */
+.image-left {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.image-right {
+	float: right;
+	margin: 0 0 0 10px;
+}
+image-center {
+	display: block;
+	margin: 3px auto;
+}
+
+/*---------------------------------------- Float clearing */
+.clear {
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+/* Micro clearfix
+ | http://css-tricks.com/snippets/css/clear-fix/
+ | http://nicolasgallagher.com/micro-clearfix-hack/
+ | http://www.adamkaplan.me/css-clearfix/
+ */
+.clearfix:before, .clearfix:after { 
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+/* IE 6/7 (trigger hasLayout) */
+.clearfix {  
+	*zoom: 1;
+}

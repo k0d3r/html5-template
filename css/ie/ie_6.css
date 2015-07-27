@@ -1,0 +1,10 @@
+/*---------- Fixes for the IE6 rendering engine */
+
+/*----- Give elements hasLayout */
+#some-id {
+	zoom: 1;
+}
+/*----- Fix double margin */
+#some-id {
+	display: inline;
+}
