@@ -3,10 +3,9 @@
  | lte IE8 ignores the media query blocks and runs the CSS rules as normal.
  |     To get lte IE8 to ignore media queries: use "only" in the rule OR use respond.js for IE 6-8 support OR use conditional comments
  |     Without the "only" keyword: lte IE8 will run the last set of CSS rules in a stylesheet regardless of whether they are in a media query block or not
- |
  */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
 			
 	body {
 		background: orange;
