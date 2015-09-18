@@ -14,6 +14,26 @@ Using classes as opposed to IDs can avoid mucky CSS by applying CSS specificity 
 
 `figure` - Attach a caption to an image
 
+	<figure>
+		<img src="img/image.jpg" alt="">
+		<figcaption>
+			Lorem Ipsum Caption
+			<br>
+			<small><a href="" target="_blank">Lorem Ipsum Link</a></small>
+		</figcaption>
+	</figure>
+
+	<figure>
+		<img src="img/image-1.jpg" alt="">
+		<img src="img/image-2.jpg" alt="">
+		<img src="img/image-3.jpg" alt="">
+		<figcaption>
+			Lorem Ipsum Caption
+			<br>
+			<small><a href="" target="_blank">Lorem Ipsum Link</a></small>
+		</figcaption>
+	</figure>
+
 ## Forms
 
 ##### The Current State of HTML5 Forms - What the various browsers support
