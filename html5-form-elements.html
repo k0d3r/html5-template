@@ -2,171 +2,171 @@
 
 <html>
 
-	<head>
-		
-		<meta charset="utf-8">
-		
-		<title>HTML5 Form Elements</title>
+    <head>
 
-		<style>
+        <meta charset="utf-8">
 
-			body {
-				font: 13px Arial, Helvetica, sans-serif;
-			}
+        <title>HTML5 Form Elements</title>
 
-			h1 {
-				text-align: center;
-			}
+        <style>
 
-			form {
-				width: 800px;
-				margin: 0 auto;
-			}
+            body {
+                font: 13px Arial, Helvetica, sans-serif;
+            }
 
-			form fieldset {
-				padding: 10px 20px;
-			}
-			form fieldset legend {
-				padding: 0 7px;
-				font-size: 150%;
-				font-weight: bolder;
-			}
-			form p {
-				margin: 0 0 20px 0;
-			}
-			form label {
-				display: block;
-				margin: 0 0 2px 0;
-			}
+            h1 {
+                text-align: center;
+            }
 
-		</style>
-		
-	</head>
+            form {
+                width: 800px;
+                margin: 0 auto;
+            }
 
-	<body>
+            form fieldset {
+                padding: 10px 20px;
+            }
+            form fieldset legend {
+                padding: 0 7px;
+                font-size: 150%;
+                font-weight: bolder;
+            }
+            form p {
+                margin: 0 0 20px 0;
+            }
+            form label {
+                display: block;
+                margin: 0 0 2px 0;
+            }
 
-		<h1>HTML5 Form Elements</h1>
+        </style>
 
-		<form action="" method="post">
-			
-			<fieldset>
+    </head>
 
-				<legend>Demo Form</legend>
+    <body>
 
-				<p>
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" required>
-				</p>
+        <h1>HTML5 Form Elements</h1>
 
-				<p>
-					<label for="passport">Passport</label>
-					<input type="text" name="passport" id="passport" pattern="[a-zA-Z]{2}[0-9]{7}">
-				</p>
+        <form action="" method="post">
 
-				<p>
-					<label for="email">Email</label>
-					<input type="email" name="email" id="email">
-				</p>
+            <fieldset>
 
-				<p>
-					<label for="password">Password</label>
-					<input type="password" name="password" id="password">
-				</p>
+                <legend>Demo Form</legend>
 
-				<p>
-					<label for="url">URL</label>
-					<input type="url" name="url" id="url">
-				</p>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
 
-				<p>
-					<label for="age">Age</label>
-					<input type="number" name="age" id="age" min="1" max="120">
-				</p>
+                <p>
+                    <label for="passport">Passport</label>
+                    <input type="text" name="passport" id="passport" pattern="[a-zA-Z]{2}[0-9]{7}">
+                </p>
 
-				<p>
-					<label for="mobile">Mobile</label>
-					<input type="tel" name="mobile" id="mobile" pattern="[0][8][0-9]{8}" required>
-				</p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </p>
 
-				<p>
-					<label for="search">Search</label>
-					<input type="search" name="search" id="search" results>
-				</p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </p>
 
-				<p>
-					<label for="slider">Slider</label>
-					<input type="range" name="slider" id="slider" min="0" max="100" value="0" step="10">
-				</p>
+                <p>
+                    <label for="url">URL</label>
+                    <input type="url" name="url" id="url">
+                </p>
 
-				<p>
-					<label for="date">Date</label>
-					<input type="date" name="date" id="date">
-				</p>
+                <p>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="1" max="120">
+                </p>
 
-				<p>
-					<label for="color-picker">Colour Picker</label>
-					<input type="color" name="color-picker" id="color-picker">
-				</p>
+                <p>
+                    <label for="mobile">Mobile</label>
+                    <input type="tel" name="mobile" id="mobile" pattern="[0][8][0-9]{8}" required>
+                </p>
 
-				<p>
-					<label for="progress">Progress</label>
-					<progress name="progress" id="progress" min="0" max="100" value="20"></progress>
-				</p>
+                <p>
+                    <label for="search">Search</label>
+                    <input type="search" name="search" id="search" results>
+                </p>
 
-				<p>
-					<label for="meter">Meter</label>
-					<meter name="meter" id="meter" min="0" max="100" value="50"></meter>
-				</p>
+                <p>
+                    <label for="slider">Slider</label>
+                    <input type="range" name="slider" id="slider" min="0" max="100" value="0" step="10">
+                </p>
 
-				<p>
-					<label for="currency">Currency</label>
-					<input list="currency-list" name="currency" id="currency">
-					<datalist id="currency-list">
-						<option value="USD - US Dollar">
-						<option value="EUR - Euro">
-						<option value="GBP - British Pound">
-						<option value="INR - Indian Rupee">
-						<option value="AUD - Australian Dollar">
-					</datalist>
-				</p>
+                <p>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </p>
 
-				<p>
-					<label for="browser">Browser</label>
-					<select name="browser" id="browser">
-						<optgroup label="Browsers"></optgroup>
-						<option value="ie">Internet Explorer</option>
-						<option value="firefox">Firefox</option>
-						<option value="chrome">Chrome</option>
-						<option value="safari">Safari</option>
-					</select>
-				</p>
+                <p>
+                    <label for="color-picker">Colour Picker</label>
+                    <input type="color" name="color-picker" id="color-picker">
+                </p>
 
-				<p>
-					<label>Beverage</label>
-					<input type="radio" name="beverage" value="coke"> Coke <br>
-					<input type="radio" name="beverage" value="mountain dew"> Mountain Dew <br>
-					<input type="radio" name="beverage" value="red bull"> Red Bull
-				</p>
+                <p>
+                    <label for="progress">Progress</label>
+                    <progress name="progress" id="progress" min="0" max="100" value="20"></progress>
+                </p>
 
-				<p>
-					<label>Vegetables</label>
-					<input type="checkbox" name="vegetables" value="broccoli"> Broccoli <br>
-					<input type="checkbox" name="vegetables" value="carrots"> Carrots <br>
-					<input type="checkbox" name="vegetables" value="lettuce"> Lettuce
-				</p>
-					
-				<p>
-					<input type="submit" value="Submit">
-				</p>
+                <p>
+                    <label for="meter">Meter</label>
+                    <meter name="meter" id="meter" min="0" max="100" value="50"></meter>
+                </p>
 
-				<p>
-					<button type="submit">Submit</button>
-				</p>
+                <p>
+                    <label for="currency">Currency</label>
+                    <input list="currency-list" name="currency" id="currency">
+                    <datalist id="currency-list">
+                        <option value="USD - US Dollar">
+                        <option value="EUR - Euro">
+                        <option value="GBP - British Pound">
+                        <option value="INR - Indian Rupee">
+                        <option value="AUD - Australian Dollar">
+                    </datalist>
+                </p>
 
-			</fieldset>
+                <p>
+                    <label for="browser">Browser</label>
+                    <select name="browser" id="browser">
+                        <optgroup label="Browsers"></optgroup>
+                        <option value="ie">Internet Explorer</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                    </select>
+                </p>
 
-		</form>
-		
-	</body>
+                <p>
+                    <label>Beverage</label>
+                    <input type="radio" name="beverage" value="coke"> Coke <br>
+                    <input type="radio" name="beverage" value="mountain dew"> Mountain Dew <br>
+                    <input type="radio" name="beverage" value="red bull"> Red Bull
+                </p>
+
+                <p>
+                    <label>Vegetables</label>
+                    <input type="checkbox" name="vegetables" value="broccoli"> Broccoli <br>
+                    <input type="checkbox" name="vegetables" value="carrots"> Carrots <br>
+                    <input type="checkbox" name="vegetables" value="lettuce"> Lettuce
+                </p>
+                    
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+
+            </fieldset>
+
+        </form>
+
+    </body>
 
 </html>
